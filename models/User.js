@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true, // The unique property is used to ensure that no two documents in the collection have the same value for the email field.
+    unique: true,
   },
   password: {
     type: String,
